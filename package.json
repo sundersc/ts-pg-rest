@@ -1,0 +1,22 @@
+{
+  "name": "rest-api-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/swagger-ui-express": "^4.1.8",
+    "express": "^4.21.2",
+    "pg": "^8.14.1",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11"
+  }
+}
