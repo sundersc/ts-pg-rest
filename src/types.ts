@@ -23,7 +23,7 @@ export interface OpenAPISpec {
     description: string;
   };
   paths: {
-    [path: string]: PathItemObject;  // Changed this line
+    [path: string]: PathItemObject;
   };
   components: {
     schemas: {
